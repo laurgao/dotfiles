@@ -11,3 +11,6 @@ git config --global init.defaultBranch main
 code --install-extension esbenp.prettier-vscode
 code --install-extension vscodevim # ??
 # tailwindcss intellisense
+
+
+# react devtools chrome ext + vscode ext + ublock origin + visualize value (maybe)
