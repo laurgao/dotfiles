@@ -16,4 +16,8 @@
 - automatic time zone
 
 ## todo
--  find some way to map caps lock to escape
+`dconf write "/org/gnome/desktop/input-sources/xkb-options" "['caps:swapescap^C]"` to swap escape w caps lock.
+
+then 
+    "keyboard.dispatch": "keyCode" in vscode settings.json
+
