@@ -15,8 +15,9 @@
 - show battery percentage
 - automatic time zone
 
-## todo
-`dconf write "/org/gnome/desktop/input-sources/xkb-options" "['caps:swapescap^C]"` to swap escape w caps lock.
+## key mappings
+`dconf write "/org/gnome/desktop/input-sources/xkb-options" "['caps:swapescape']"` to swap escape w caps lock.
+`dconf write "/org/gnome/desktop/input-sources/xkb-options" "['caps:escape']"` to ... map caps lock to esc without swapping them. (preferred)
 
 then 
     "keyboard.dispatch": "keyCode" in vscode settings.json
