@@ -8,7 +8,7 @@
 - Close window: super+q
 
 **custom keyboard shortcuts**:
-- `spotify` super+m
+- `spotify` super+s
 
 ## settings
 - display: 100%
